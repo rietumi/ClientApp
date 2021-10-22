@@ -1,0 +1,80 @@
+﻿:root {
+    --main: #447604;
+    --main-1: #60A506;
+
+    --background: #35493B;
+    
+    --balts: #ffffff;
+    --melns: #000000;
+    --peleks: #333333;
+    --peleks-1: #9e9e9e;
+    --peleks-2: #cccccc;
+}
+
+#swap-button {
+    position: fixed;
+    left: 10px;
+    z-index: 100;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.horizontal-center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn-success {
+    background-color: var(--main);
+    border: none;
+    
+    :hover {
+        background-color: var(--main-1);
+    }
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.float-left{
+    float: left;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    background-color: var(--background);
+    color: var(--balts);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+  
